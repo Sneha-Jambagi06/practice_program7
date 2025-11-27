@@ -8,5 +8,6 @@ else:
     attended = 30
 
 attendance = (attended / held) * 100
-
+print("Attended:", attended)
+print("Held:", held)
 print("Attendance Percentage:", attendance)
